@@ -1,0 +1,22 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    background-color: orange;
+    padding:50px 150px 100px 50px;
+    border: 10px solid black;
+    margin:50px;
+}
+.latin{
+    font-size:45px;
+    color:rgb(235, 12, 12);
+    text-align:center;
+    padding:30px;
+    max-width:500px;
+    line-height:1.35em;
+}
+#fancy {
+    font-family: 'Birthstone', cursive;
+    color:black;
+    font-size: 50px;
+}
