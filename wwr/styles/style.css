@@ -2,10 +2,14 @@ div {
     max-width: 1600px;
     margin: 0 auto;
 }
+#hero {
+    border:1px solid black
+}
 nav a {
     text-align: center;
     color:white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -19,21 +23,34 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+    border: 5px solid tan;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+    border: 0 solid white;
 }
 .logo {
     width: 80px;
+    padding-top: 5px;
 }
 #hero-img {
     max-width: 100%;
+    width: 1600px;
 }
 #background {
     height: 725px;
     background-color: rgb(88, 62, 4);
+    margin: 50px 0;
 }
 body {
     background-color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px;
 }
 header {
     background-color: rgb(43, 99, 26);
@@ -47,11 +64,22 @@ nav a:hover {
     background-color: tan;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.button-box{
+    margin: 50px;
 }
 .join {
     background-color: black;
     color: white;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: rgb(0, 158, 250);
@@ -63,17 +91,22 @@ nav a:hover {
 }
 .msg {
     background-color: rgb(43, 99, 26);
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: white;
 }
 .msg p {
     color: white;
+    padding-bottom: 15px;
 }
 footer {
     background-color: rgb(43, 99, 26);
     color: tan;
     text-decoration: none;
+    margin-top:200px;
+    padding: 25px 50px;
 }
 footer a:hover {
     color: black;
@@ -83,8 +116,14 @@ footer h3{
     color: tan;
     text-decoration: none;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color: black;
+    font-family: 'Akronim', 'cursive', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
@@ -95,5 +134,26 @@ footer a {
 }
 a:hover {
     text-decoration: none;
+}
+h2 {
+    margin: 0;
+}
+.rivers-card {
+    margin:200px 0;
+}
+.camping-card {
+    margin:200px 0;
+}
+.rapids-card {
+    margin:200px 0;
+}
+.card-img {
+    border-radius: 10px solid black;
+}
+#logo_link {
+    padding-top:5px;
+}
+.mountains {
+    margin: 100px 0;
 }
 
