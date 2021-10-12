@@ -130,7 +130,7 @@ h4 {
 }
 footer a {
     color:tan;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover {
     text-decoration: none;
