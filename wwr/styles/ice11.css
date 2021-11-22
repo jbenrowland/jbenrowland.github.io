@@ -1,0 +1,13 @@
+body {
+    background-color: lightgrey;
+}
+.ammonimg {
+    max-width: 600px;
+    max-height: 500px;
+    margin-left: 450px;
+}
+.home-grid h2, h3 {
+    text-align: center;
+}
+.home-grid h2 {
+    text-decoration: underline;
